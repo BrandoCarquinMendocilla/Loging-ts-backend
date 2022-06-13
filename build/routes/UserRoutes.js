@@ -61,7 +61,7 @@ class UserRoutes {
     }
     getUser(req, res) {
         return __awaiter(this, void 0, void 0, function* () {
-            const user = yield User_1.default.findOne({ user: req.params.user });
+            const user = yield User_1.default.findOne({ username: req.params.username });
             res.json(user);
         });
     }

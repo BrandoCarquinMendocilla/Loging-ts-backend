@@ -42,7 +42,7 @@ class UserRoutes {
         res.json(user);
     }
     public async getUser(req: Request, res: Response): Promise<void> {
-        const user = await User.findOne({ user: req.params.user });
+        const user = await User.findOne({ username: req.params.username });
         res.json(user);
     }
     public async updateUser(req: Request, res: Response): Promise<void> {
