@@ -1,0 +1,27 @@
+[{
+  "_id": {
+    "$oid": "62a4f6e4df8a466f8e0b96f2"
+  },
+  "username": "admin",
+  "password": "$2b$12$vaA6z4XQpR0ySkzOQ2E9ieDCAWFzsrvIWHMksS3of.vdLxyGZLBRO",
+  "fullname": "Brando Javier Carquin Mendocilla",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1654978276453"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62a501f5f260b739b42a8817"
+  },
+  "username": "admin2",
+  "password": "$2b$12$Kd8hF8MVtAzA9JNfbGbPs.NvvuuzWQI/gKNun85u5hbyzj4.buLDG",
+  "fullname": "Javier Carquin Mendocilla",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1654981109388"
+    }
+  },
+  "__v": 0
+}]
